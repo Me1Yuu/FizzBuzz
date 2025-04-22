@@ -1,10 +1,10 @@
 Eine kurze Übung in C#.
 
 Code:
+
 int fizz = 0;
 int buzz = 0;
 int fizzBuzz = 0;
-
 for (int i = 1; i <= 100; i++)
 {
     if (i % 3 == 0 && i % 5 == 0)//dieser code prüft ob die variable i durch 3 oder 5 teilbar ist und ohne Rest abgibt. 
@@ -26,9 +26,7 @@ for (int i = 1; i <= 100; i++)
     {
         Console.WriteLine(i);
     }
-
     Thread.Sleep(100);
-
     if (i == 100)
     {
         Console.WriteLine("\nTotale Anzahl an Fizz: " + fizz);
